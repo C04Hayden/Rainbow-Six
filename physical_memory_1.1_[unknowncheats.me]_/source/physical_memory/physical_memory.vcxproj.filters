@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\kernel">
+      <UniqueIdentifier>{71eda5ce-26d1-4c68-83b9-48de57eaf137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{351299c1-8054-4852-8e9c-812c62c65e4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\memory.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\kprocess.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\virtual_memory.cpp">
+      <Filter>Source Files\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game_test.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="service.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\memory.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kprocess.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\virtual_memory.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game_test.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
